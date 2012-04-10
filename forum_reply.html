@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	
+	<link rel="stylesheet" type="text/css" href="css/reset.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+	<link rel="icon" type="image/png" href="icons/favicon.png" />
+
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+
+	<title>ValoBB Reply to topic</title>
+</head>
+<body>
+<div id="container">
+	<div id="header">
+		<h1>Forum Header</h1>
+		<ul class="breadcrumbs">
+			<li><a href="#">Home</a></li> > 
+			<li><a href="#">Forum</a></li> > 
+			<li><a href="#">Facepunch</a></li> > 
+			<li><a href="#">Hardware and Software</a></li>
+		</ul>
+		<a class="username" href="#">Username</a>
+		<div class="controls">
+			<a class="pm" href="#">PM</a>
+			<a class="more" href="#">More</a>
+		</div>
+		<ul class="navigation">
+			<li class="tick"><a href="#">Ticker</a></li>
+			<li class="event"><a href="#">Events</a></li>
+			<li class="search"><a href="#">Search</a></li>
+			<li class="more"><a href="#">More</a></li>
+		</ul>
+	</div>
+	<div class="listheader">
+		<h2>Post a Reply</h2>
+	</div>
+	<div class="panel">
+		<form id="postform" enctype="multipart/form-data">
+				<div class="left">
+					<dl>
+					<dt><label for="subject">Subject:</label></dt>
+					<dd><input id="subject" class="inputform" type="text" maxlength="72" size="38" name="subject"/></dd>
+				</dl>
+				<dl>
+					<dt><label for="format">Formatting:</label></dt>
+					<dd>
+						<input type="Button" name="Bold" value="B" class="fbtn fir"/>
+						<input type="Button" name="Italic" value="I" class="fbtn mid"/>
+						<input type="Button" name="Underline" value="U" class="fbtn end"/>
+						<input type="Button" name="Quote" value="Quote" class="fbtn fir"/>
+						<input type="Button" name="Code" value="Code" class="fbtn mid"/>
+						<input type="Button" name="List" value="List" class="fbtn end"/>
+						<input type="Button" name="Image" value="Image" class="fbtn fir"/>
+						<input type="Button" name="URL" value="URL" class="fbtn end"/>
+					</dd>
+				</dl>
+				<dl>
+					<dt><label for="msg">Message:</label></dt>
+					<dd><textarea name="message" rows="12" id="msg"></textarea></dd>
+				</dl>
+			</div>
+			<div class="right">
+				<dl>
+					<dt><label for"smileys">Smileys:</label></dt>
+					<dd>
+						<div id="smileys">
+							<a href="#" title=":biggrin:"><img src="images/emoticons/biggrin.gif" alt="Big Grin" width="15" height="15"/></a>
+							<a href="#"><img src="images/emoticons/catstare.gif" alt="Cat Stare" width="24" height="18"/></a>
+							<a href="#"><img src="images/emoticons/classic_fillmore.gif" alt="Classic Fillmore" width="58" height="15"/></a>
+							<a href="#"><img src="images/emoticons/confused.gif" alt="Confused" width="15" height="22"/></a>
+							<a href="#"><img src="images/emoticons/cool.gif" alt="cool" width="15" height="15"/></a>
+							<a href="#"><img src="images/emoticons/emot-3.gif" alt="emot-3" width="15" height="18"></a>
+							<a href="#"><img src="images/emoticons/edi.gif" alt="edi" width="65" height="22"/></a>
+							<!--Repeat-->
+
+						</div>
+					</dd>
+				</dl>
+				<div class="postbuttons">
+					<input type="Submit" name="submit" value="Submit" class="btn"/>
+					<input type="Button" name="preview" value="Preview" class="btn"/>
+				</div>	
+			</div>
+		</form>
+	</div>
+	<div class="listheader middle">
+		<h2>Additional Options</h2>
+	</div>
+	<div class="listfooter">
+	</div>
+</div>
+</body>
+</html>
